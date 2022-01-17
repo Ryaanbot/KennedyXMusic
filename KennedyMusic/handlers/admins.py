@@ -205,9 +205,3 @@ async def change_volume(client, message):
        await message.reply(f"🔊 **volume set to:** ```{range}%```")
     except Exception as e:
        await message.reply(f"**error:** {e}")
-            "read the /help message to know how to use this command"
-        )
-
-
-@Client.on_message(command(["play", f"play@{BOT_USERNAME}"]
-@authorized_users_only
